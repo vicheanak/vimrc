@@ -1,4 +1,4 @@
-execute pathogen#infect()
+```execute pathogen#infect()
 syntax on
 " filetype plugin indent on
 
@@ -289,3 +289,4 @@ autocmd BufReadPre *.js let b:javascript_lib_use_angularjs = 1
 
 "Emmet
 let g:user_emmet_leader_key='<C-e>'
+```
